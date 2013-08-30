@@ -1,0 +1,10 @@
+.DS_Store
+*.swp
+build
+.vagrant
+.gradle
+out
+*.iml
+*.ipr
+*.iws
+*.lock

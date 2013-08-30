@@ -1,0 +1,21 @@
+apply plugin: 'idea'
+apply plugin: 'java'
+
+sourceCompatibility = '1.6'
+targetCompatibility = '1.6'
+
+dependencies {
+    repositories {
+        mavenCentral()
+    }
+
+    testCompile "junit:junit:4.12"
+    testCompile "com.google.guava:guava:14.0.1"
+    testCompile "org.mockito:mockito-all:1.8.4"
+}
+
+jar {
+    manifest {
+        attributes 'Main-Class': "org.kiwi.greenlight.GreenLight"
+    }
+}
