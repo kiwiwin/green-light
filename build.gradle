@@ -9,7 +9,7 @@ dependencies {
         mavenCentral()
     }
 
-    testCompile "junit:junit:4.12"
+    testCompile "junit:junit:4.11"
     testCompile "com.google.guava:guava:14.0.1"
     testCompile "org.mockito:mockito-all:1.8.4"
 }
